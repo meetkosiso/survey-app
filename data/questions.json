@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "How old are you?",
+      "options": ["16 or less", "16-29", "30-45", "45-60", "60 and more"]
+    },
+    {
+      "id": 2,
+      "title": "How often do you exercise?",
+      "options": ["Several times", "2 times a week", "Never"]
+    },
+    {
+      "id": 3,
+      "title": "Is there any particular conditions that do not allow you to practice an activity ?",
+      "options": ["Yes", "No"],
+      "linkedOptions": [{ "questionId": 2, "option": "Never" }]
+    },
+    {
+      "id": 4,
+      "title": "Do you have a gym subscription?",
+      "options": ["Yes", "No"],
+      "linkedOptions": [{ "questionId": 2, "option": "Several times" },{ "questionId": 2, "option": "2 times a week" }]
+    },
+    {
+      "id": 5,
+      "title": "What are your favourite activities?",
+      "options": ["Running", "Dance", "Feasting", "Other", "None of the above"]
+    }
+  ]
+}

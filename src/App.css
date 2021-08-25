@@ -1,0 +1,160 @@
+.main-container {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sub-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.container-header {
+	display: flex;
+	width: 60%;
+	height: 100px;
+	margin-bottom: 90px;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 2px solid rgb(201, 201, 199);
+}
+.header-item {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: brown;
+	display: inline-block;
+	margin: 0 0 -2px 0;
+	padding: 22px 3px;
+	font-weight: 600;
+}
+.content {
+	background-color: white;
+	width: 60%;
+	height: 300px;
+	margin-bottom: 12em;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 60%;
+	height: 100px;
+	margin-bottom: 10px;
+}
+.action-button {
+	flex-basis: 120px;
+	flex-shrink: 0;
+	height: 40px;
+	font-weight: 600;
+	border-radius: 15px;
+	color: white;
+	background-color: brown;
+	border: 0px;
+	margin-left: auto;
+	margin-right: 15px;
+}
+.action-button:disabled:hover {
+	background: rgb(214, 107, 107);
+}
+.action-button:disabled {
+	background: rgb(214, 107, 107);
+}
+.action-button:hover {
+	background-color: rgb(201, 66, 66);
+}
+.normal-button {
+	flex-basis: 120px;
+	flex-shrink: 0;
+	height: 40px;
+	font-weight: 600;
+	font-size: 13px;
+	background-color: white;
+	color: rgb(71, 69, 69);
+	border: 0px;
+	margin-left: 15px;
+}
+.normal-button:disabled:hover {
+	color: rgb(130, 129, 129);
+}
+.normal-button:disabled {
+	color: rgb(130, 129, 129);
+}
+.normal-button:hover {
+	color: brown;
+}
+button:focus {
+	outline: white;
+}
+.form-input:focus {
+	outline: white;
+}
+.form-input {
+	display: flex;
+	flex-direction: row;
+	color: black;
+	border: 1px solid rgb(137, 143, 139);
+	border-radius: 6px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+.form-input:hover {
+	background-color: brown;
+	color: white;
+}
+.on-selected {
+	background-color: brown;
+	color: white;
+	font-weight: 800;
+}
+input[type='checkbox'] {
+	flex-basis: 20px;
+	flex-shrink: 0;
+	border: 2px solid #d6d6d6;
+	height: 20px;
+	margin-right: 8px;
+	outline: 0px solid gray;
+	box-shadow: none;
+	appearance: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+input[type='checkbox']:checked:after {
+	content: '✔';
+	color: white;
+}
+.form-input-container {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+.form-label {
+	margin-left: 10px;
+	align-self: center;
+}
+.sub-content-child {
+	margin-bottom: 20px;
+	font-family: Calibri, sans-serif;
+}
+#content-header {
+	font-weight: 800;
+	font-size: 20;
+	color: rgb(59, 58, 57);
+}
+#content-message-title {
+	font-weight: 800;
+	font-size: 20px;
+	color: rgb(105, 107, 106);
+}
+.icons-left {
+	margin-right: 5px;
+}
+.icons-right {
+	margin-left: 5px;
+}
+.question-title {
+	font-size: 20px;
+	margin-bottom: 32px;
+}
