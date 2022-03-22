@@ -1,6 +1,6 @@
-# Fullstack sample test
+# Survey APP
 
-The challenge is to implement a survey app, that allows a user to answer to a list of predefined
+A survey app, that allows a user to answer to a list of predefined
 questions.
 
 The Project has two part, the frontend app built on React.js and the backend service built on Node.JS, the backend service exposes a list of predefined questions via an api that is consumed by the React app.
